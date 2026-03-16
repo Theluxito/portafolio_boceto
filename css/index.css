@@ -1,0 +1,36 @@
+.nav-container{
+    background-color: black;
+    margin: -8px;
+    padding: 10px;
+    display: flex;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+    margin: 10pxpx;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    
+}
+
+.nav-links:hover{
+    color: gray;
+}
+
+.nav-logo{
+    color: white;
+    display: inline-flex;
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* 
+.nav-child{
+    
+}
+
+.nav-child2{
+    display: flexbox;
+} */
