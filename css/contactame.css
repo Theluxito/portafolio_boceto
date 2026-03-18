@@ -1,0 +1,22 @@
+form{
+    border-style: groove;
+    border-radius: 25px;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    background-color: rgb(99, 95, 87);
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
