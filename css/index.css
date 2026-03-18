@@ -40,3 +40,9 @@
 body{
     background-color: rgb(67, 61, 61);
 }
+
+.resumen{
+    color: rgb(243, 235, 235);
+    margin: 0 auto;
+    margin-top: 50px;
+}
