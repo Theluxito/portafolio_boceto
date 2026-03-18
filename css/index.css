@@ -1,8 +1,9 @@
 .nav-container{
-    background-color: black;
+    background-color: rgb(42, 39, 39);
     margin: -8px;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-links{
@@ -12,7 +13,7 @@
     font-family: "Hachi Maru Pop", cursive;
     font-weight: 400;
     font-style: normal; 
-    
+    margin: auto 5px auto 15px;
 }
 
 .nav-links:hover{
@@ -25,12 +26,16 @@
     font-family: "Hachi Maru Pop", cursive;
     font-weight: 400;
     font-style: normal;
+    display: inline;
 }
-/* 
-.nav-child{
-    
-}
+
+/* .nav-child{
+} */
 
 .nav-child2{
     display: flexbox;
-} */
+}
+
+body{
+    background-color: rgb(67, 61, 61);
+}
