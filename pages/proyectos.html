@@ -9,22 +9,76 @@
       href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/proyectos.css">
     <link rel="stylesheet" href="../css/index.css" />
     <title>Inicio</title>
   </head>
   <body>
+    <!-- <div id="menu-placeholder"></div> -->
     <nav>
       <div class="nav-container">
         <div class="nav-child">
           <p class="nav-logo">Sebastian Ferreira</p>
         </div>
         <div class="nav-child2">
-          <a href="index.html" class="nav-links">Inicio</a>
-          <a href="pages/proyectos.html" class="nav-links">Proyectos</a>
-          <a href="pages/contactame.html" class="nav-links">Contáctame</a>
+          <a href="../index.html" class="nav-links">Inicio</a>
+          <a href="proyectos.html" class="nav-links">Proyectos</a>
+          <a href="contactame.html" class="nav-links">Contáctame</a>
         </div>
       </div>
     </nav>
-    <p style="color:rgb(255, 255, 255)">ACTUALMENTE SIN PROYECTOS XD</p>
+
+
+    <p class="titulo-proyectos" style="color: rgb(255, 255, 255)" align="center"> MIS PROYECTOS</p>
+
+
+
+
+    <div class="cards">
+        <a href="#" class="card">
+          <div class="card-title">
+            <p>Proyectos básicos</p>
+          </div>
+          <div class="card-img htmlcsslogo">
+            <img src="../img/htmlcsslogo-removebg-preview.png" alt="">
+          </div>
+        </a>
+  
+        
+      <a href="#" class="card">
+        <div class="card-title">
+          <p>Proyectos intermedios</p>
+        </div>
+        <div class="card-img">
+          <img src="../img/htmlcssjslogo-removebg-preview.png" alt="">
+        </div>
+      </a>
+
+  
+      <a href="#" class="card">
+        <div class="card-title">
+          <p>Proyectos avanzados</p>
+        </div>
+        <div class="card-img">
+          <img src="../img/react-removebg-preview.png" alt="">
+        </div>
+      </a>
+    </div>
+
+
+
+
+
+
+    <!-- <script>
+      fetch("../partials/nav.html")
+        .then((r) => r.text())
+        .then(
+          (html) =>
+            (document.getElementById("menu-placeholder").innerHTML = html),
+        )
+        .catch((err) => console.error(err)); -->
+    <!-- </script> -->
   </body>
 </html>
